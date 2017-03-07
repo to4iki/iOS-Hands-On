@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		1E4FABBF1E6EFF8400DCBCE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FABBE1E6EFF8400DCBCE4 /* AppDelegate.swift */; };
-		1E4FABC11E6EFF8400DCBCE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FABC01E6EFF8400DCBCE4 /* ViewController.swift */; };
+		1E4FABC11E6EFF8400DCBCE4 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FABC01E6EFF8400DCBCE4 /* TimelineViewController.swift */; };
 		1E4FABC41E6EFF8400DCBCE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E4FABC21E6EFF8400DCBCE4 /* Main.storyboard */; };
 		1E4FABC61E6EFF8400DCBCE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E4FABC51E6EFF8400DCBCE4 /* Assets.xcassets */; };
 		1E4FABC91E6EFF8400DCBCE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E4FABC71E6EFF8400DCBCE4 /* LaunchScreen.storyboard */; };
+		1E4FABD91E6F062E00DCBCE4 /* TimelineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FABD71E6F062E00DCBCE4 /* TimelineTableViewCell.swift */; };
+		1E4FABDA1E6F062E00DCBCE4 /* TimelineTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E4FABD81E6F062E00DCBCE4 /* TimelineTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1E4FABBB1E6EFF8400DCBCE4 /* iOS-Hands-On.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Hands-On.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E4FABBE1E6EFF8400DCBCE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1E4FABC01E6EFF8400DCBCE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E4FABC01E6EFF8400DCBCE4 /* TimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
 		1E4FABC31E6EFF8400DCBCE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E4FABC51E6EFF8400DCBCE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E4FABC81E6EFF8400DCBCE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E4FABCA1E6EFF8400DCBCE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E4FABD71E6F062E00DCBCE4 /* TimelineTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineTableViewCell.swift; sourceTree = "<group>"; };
+		1E4FABD81E6F062E00DCBCE4 /* TimelineTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimelineTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,24 @@
 		1E4FABBD1E6EFF8400DCBCE4 /* iOS-Hands-On */ = {
 			isa = PBXGroup;
 			children = (
+				1E4FABD41E6F05EC00DCBCE4 /* view */,
 				1E4FABBE1E6EFF8400DCBCE4 /* AppDelegate.swift */,
-				1E4FABC01E6EFF8400DCBCE4 /* ViewController.swift */,
+				1E4FABC01E6EFF8400DCBCE4 /* TimelineViewController.swift */,
 				1E4FABC21E6EFF8400DCBCE4 /* Main.storyboard */,
 				1E4FABC51E6EFF8400DCBCE4 /* Assets.xcassets */,
 				1E4FABC71E6EFF8400DCBCE4 /* LaunchScreen.storyboard */,
 				1E4FABCA1E6EFF8400DCBCE4 /* Info.plist */,
 			);
 			path = "iOS-Hands-On";
+			sourceTree = "<group>";
+		};
+		1E4FABD41E6F05EC00DCBCE4 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				1E4FABD71E6F062E00DCBCE4 /* TimelineTableViewCell.swift */,
+				1E4FABD81E6F062E00DCBCE4 /* TimelineTableViewCell.xib */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E4FABDA1E6F062E00DCBCE4 /* TimelineTableViewCell.xib in Resources */,
 				1E4FABC91E6EFF8400DCBCE4 /* LaunchScreen.storyboard in Resources */,
 				1E4FABC61E6EFF8400DCBCE4 /* Assets.xcassets in Resources */,
 				1E4FABC41E6EFF8400DCBCE4 /* Main.storyboard in Resources */,
@@ -136,7 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E4FABC11E6EFF8400DCBCE4 /* ViewController.swift in Sources */,
+				1E4FABC11E6EFF8400DCBCE4 /* TimelineViewController.swift in Sources */,
+				1E4FABD91E6F062E00DCBCE4 /* TimelineTableViewCell.swift in Sources */,
 				1E4FABBF1E6EFF8400DCBCE4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
