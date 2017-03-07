@@ -14,6 +14,7 @@
 		1E4FABC91E6EFF8400DCBCE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E4FABC71E6EFF8400DCBCE4 /* LaunchScreen.storyboard */; };
 		1E4FABD91E6F062E00DCBCE4 /* TimelineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FABD71E6F062E00DCBCE4 /* TimelineTableViewCell.swift */; };
 		1E4FABDA1E6F062E00DCBCE4 /* TimelineTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E4FABD81E6F062E00DCBCE4 /* TimelineTableViewCell.xib */; };
+		1E4FABDE1E6F0B6D00DCBCE4 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FABDD1E6F0B6D00DCBCE4 /* Tweet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1E4FABCA1E6EFF8400DCBCE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E4FABD71E6F062E00DCBCE4 /* TimelineTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineTableViewCell.swift; sourceTree = "<group>"; };
 		1E4FABD81E6F062E00DCBCE4 /* TimelineTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimelineTableViewCell.xib; sourceTree = "<group>"; };
+		1E4FABDD1E6F0B6D00DCBCE4 /* Tweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		1E4FABBD1E6EFF8400DCBCE4 /* iOS-Hands-On */ = {
 			isa = PBXGroup;
 			children = (
+				1E4FABDC1E6F0B6500DCBCE4 /* model */,
 				1E4FABD41E6F05EC00DCBCE4 /* view */,
 				1E4FABBE1E6EFF8400DCBCE4 /* AppDelegate.swift */,
 				1E4FABC01E6EFF8400DCBCE4 /* TimelineViewController.swift */,
@@ -76,6 +79,14 @@
 				1E4FABD81E6F062E00DCBCE4 /* TimelineTableViewCell.xib */,
 			);
 			path = view;
+			sourceTree = "<group>";
+		};
+		1E4FABDC1E6F0B6500DCBCE4 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				1E4FABDD1E6F0B6D00DCBCE4 /* Tweet.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +165,7 @@
 				1E4FABC11E6EFF8400DCBCE4 /* TimelineViewController.swift in Sources */,
 				1E4FABD91E6F062E00DCBCE4 /* TimelineTableViewCell.swift in Sources */,
 				1E4FABBF1E6EFF8400DCBCE4 /* AppDelegate.swift in Sources */,
+				1E4FABDE1E6F0B6D00DCBCE4 /* Tweet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +327,7 @@
 				1E4FABCF1E6EFF8400DCBCE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
